@@ -5,12 +5,13 @@
     "version": "1.0.0"
   },
   "uuid": "d891adc6-e1ee-4b63-bcd4-2b29cd28337c",
+  "description": "Calculadora Service",
   "type": "HTTP",
   "context": "/calc/1.0.0",
   "contextTemplate": "/calc/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 27, 2019 12:17:07 PM",
+  "lastUpdated": "Mar 27, 2019 12:51:02 PM",
   "availableTiers": [
     {
       "name": "Bronze",
