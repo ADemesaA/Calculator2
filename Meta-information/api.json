@@ -1,0 +1,109 @@
+{
+  "id": {
+    "providerName": "admin",
+    "apiName": "Calculator2",
+    "version": "1.0.0"
+  },
+  "uuid": "d891adc6-e1ee-4b63-bcd4-2b29cd28337c",
+  "type": "HTTP",
+  "context": "/calc/1.0.0",
+  "contextTemplate": "/calc/{version}",
+  "tags": [],
+  "documents": [],
+  "lastUpdated": "Mar 27, 2019 12:14:50 PM",
+  "availableTiers": [
+    {
+      "name": "Bronze",
+      "displayName": "Bronze",
+      "description": "Allows 1000 requests per minute",
+      "requestsPerMin": 1000,
+      "requestCount": 1000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    },
+    {
+      "name": "Silver",
+      "displayName": "Silver",
+      "description": "Allows 2000 requests per minute",
+      "requestsPerMin": 2000,
+      "requestCount": 2000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    }
+  ],
+  "availableSubscriptionLevelPolicies": [],
+  "uriTemplates": [
+    {
+      "uriTemplate": "/*",
+      "httpVerb": "POST",
+      "authType": "Any",
+      "httpVerbs": [
+        "POST"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    }
+  ],
+  "apiHeaderChanged": false,
+  "apiResourcePatternsChanged": false,
+  "status": "CREATED",
+  "visibility": "public",
+  "endpointSecured": false,
+  "endpointAuthDigest": false,
+  "transports": "http,https",
+  "advertiseOnly": false,
+  "corsConfiguration": {
+    "corsConfigurationEnabled": false,
+    "accessControlAllowOrigins": [
+      "*"
+    ],
+    "accessControlAllowCredentials": false,
+    "accessControlAllowHeaders": [
+      "authorization",
+      "Access-Control-Allow-Origin",
+      "Content-Type",
+      "SOAPAction"
+    ],
+    "accessControlAllowMethods": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE",
+      "PATCH",
+      "OPTIONS"
+    ]
+  },
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"http://www.dneonline.com/calculator.asmx\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "responseCache": "Disabled",
+  "cacheTimeout": 300,
+  "implementation": "ENDPOINT",
+  "scopes": [],
+  "isDefaultVersion": false,
+  "isPublishedDefaultVersion": false,
+  "environments": [
+    "Production and Sandbox"
+  ],
+  "createdTime": "1553710472944",
+  "additionalProperties": {},
+  "environmentList": [
+    "PRODUCTION"
+  ],
+  "accessControl": "all",
+  "rating": 0.0,
+  "isLatest": false
+}
