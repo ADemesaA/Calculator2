@@ -10,7 +10,7 @@
   "contextTemplate": "/calc/{version}",
   "tags": [],
   "documents": [],
-  "lastUpdated": "Mar 27, 2019 12:14:50 PM",
+  "lastUpdated": "Mar 27, 2019 12:17:07 PM",
   "availableTiers": [
     {
       "name": "Bronze",
@@ -105,5 +105,5 @@
   ],
   "accessControl": "all",
   "rating": 0.0,
-  "isLatest": false
+  "isLatest": true
 }
